@@ -59,12 +59,14 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/slim/prebuilt/common/etc/init.d/01smartass:system/etc/init.d/01smartass \
     vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Workaround for NovaLauncher zipalign fails
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+    vendor/slim/prebuilt/common/app/GoogleHome.apk:system/app/GoogleHome.apk
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
