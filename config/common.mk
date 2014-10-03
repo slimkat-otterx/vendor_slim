@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
 
 # Workaround for NovaLauncher zipalign fails
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+    vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk \
     vendor/slim/prebuilt/common/app/GoogleHome.apk:system/app/GoogleHome.apk
 
 # Embed SuperUser
